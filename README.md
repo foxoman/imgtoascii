@@ -1,24 +1,16 @@
-# To-ASCII-Nim
+# Img to Ascii
 A command line tool for converting images to ASCII!
 
 ## Compiling / Building
-* Clone the repository and `cd` into it:
-```bash
-git clone https://github.com/Iapetus-11/To-ASCII-Nim
-cd To-ASCII-Nim
-```
-* Compile:
-```bash
-nimble install
 
-# or
-
-nim compile src/toascii.nim
+* Install using nimble:
+```bash
+ nimble install https://github.com/foxoman/imgtoascii.git 
 ```
 
 ## Usage
 ```bash
-./toascii <source> <scale> [width stretch] [palette]
+imgtoascii <source> <scale> [width stretch] [palette]
 ```
 ### Arguments:
 *Required arguments are surrounded in <>, optional arguments are surrounded in [].*
